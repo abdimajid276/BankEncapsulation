@@ -9,9 +9,9 @@ public class BankAccount
         _balance += amount;
     }
 
-    public double getbalane()
+    public double GetBalane()
     {
-        return -_balance
+        return -_balance;
     }
 }
 

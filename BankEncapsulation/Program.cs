@@ -1,4 +1,5 @@
 ﻿namespace BankEncapsulation
+
 {
     public class Program
     {
@@ -6,11 +7,11 @@
         {
             var account = new BankAccount();
             
-            var currentBalance = account.getbalane();
+            var currentBalance = account.GetBalane();
             
             account.Deposit(200);
 
-            currentBalance = account.getbalane();
+            currentBalance = account.GetBalane();
             
             Console.WriteLine(currentBalance);
         }
